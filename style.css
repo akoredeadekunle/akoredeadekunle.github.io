@@ -600,3 +600,18 @@ footer {
         align-items: flex-start;
     }
 }
+
+.dashboard-image {
+    width: 100%;
+    background: #111827;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #1e293b;
+}
+
+.dashboard-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
