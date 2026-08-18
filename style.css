@@ -57,6 +57,7 @@ nav ul li a:hover {
 /* HERO */
 
 .hero {
+    flex-direction: row;
     min-height: 90vh;
     display: flex;
     align-items: center;
@@ -67,6 +68,18 @@ nav ul li a:hover {
         #111827,
         #0f172a
     );
+}
+
+.hero-image {
+    margin-right: 60px;
+}
+
+.hero-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
 }
 
 .hero-content {
