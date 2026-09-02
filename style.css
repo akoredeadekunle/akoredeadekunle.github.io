@@ -408,56 +408,66 @@ footer {
     /* MOBILE HERO */
     .hero {
         min-height: auto;
-        padding: 60px 5% 80px;
+        padding: 55px 5% 75px;
         flex-direction: column;
         text-align: center;
     }
 
     .hero-image {
-        margin-right: 0;
-        margin-bottom: 30px;
         width: 100%;
+        margin: 0 0 28px 0;
         display: flex;
         justify-content: center;
     }
 
     .hero-image img {
-        width: 160px;
-        height: 160px;
+        width: 150px;
+        height: 150px;
         object-fit: cover;
+        border-radius: 20px;
     }
 
     .hero-content {
         width: 100%;
-        max-width: 650px;
+        max-width: 500px;
+    }
+
+    .intro {
+        font-size: 13px;
+        letter-spacing: 3px;
+        margin-bottom: 12px;
     }
 
     .hero h1 {
-        font-size: 45px;
+        font-size: 42px;
         line-height: 1.05;
+        margin-bottom: 18px;
     }
 
     .hero h2 {
-        font-size: 21px;
-        line-height: 1.4;
+        font-size: 20px;
+        line-height: 1.45;
+        margin-bottom: 18px;
     }
 
     .hero-description {
-        font-size: 16px;
+        max-width: 420px;
+        margin: 0 auto 28px;
+        font-size: 15px;
         line-height: 1.7;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .hero-buttons {
+        display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 12px;
         width: 100%;
     }
 
     .hero-buttons .btn {
         width: 100%;
-        max-width: 280px;
+        max-width: 270px;
         text-align: center;
     }
 
@@ -479,7 +489,6 @@ footer {
         align-items: center;
     }
 }
-
 
 
 
