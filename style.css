@@ -430,6 +430,25 @@ footer {
 
     .hero {
         padding: 70px 5%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        margin-right: 0;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-image img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 650px;
     }
 
     .hero h1 {
@@ -442,11 +461,32 @@ footer {
 
     .hero-description {
         font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .hero-image {
-    margin-right: 0;
-    margin-bottom: 30px;
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section {
+        padding: 70px 5%;
+    }
+
+    .section-title h2 {
+        font-size: 34px;
+    }
+
+    .skills-grid,
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .hero-image img {
@@ -586,12 +626,20 @@ footer {
 
 @media (max-width: 700px) {
 
+    .project-header .intro {
+        font-size: 11px;
+        letter-spacing: 2.5px;
+        margin-bottom: 12px;
+    }
+
     .project-page {
-        padding: 60px 5%;
+        padding: 50px 5%;
     }
 
     .project-header h1 {
-        font-size: 36px;
+        font-size: 34px;
+        line-height: 1.15;
+        margin: 12px 0 18px;
     }
 
     .project-details {
@@ -617,28 +665,33 @@ footer {
     .workflow {
         grid-template-columns: 1fr;
     }
+
+    .project-header > p:last-child {
+        font-size: 16px;
+        line-height: 1.7;
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 450px) {
 
-    .performance-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .performance-card h3 {
-        font-size: 28px;
-    }
-
     .project-header {
-        padding: 50px 0;
+        padding: 40px 0;
+    }
+
+    .project-header .intro {
+        font-size: 10px;
+        letter-spacing: 2px;
     }
 
     .project-header h1 {
-        font-size: 32px;
+        font-size: 30px;
+        line-height: 1.15;
     }
 
-    .project-page h2 {
-        font-size: 28px;
+    .project-header > p:last-child {
+        font-size: 15px;
+        line-height: 1.7;
     }
 
 }
